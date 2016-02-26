@@ -6,6 +6,5 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty"}, features = "src/test/resources/features")
-//@RunWith(SpringJUnit4ClassRunner.class)
 public class RunCukesTest {
 }
